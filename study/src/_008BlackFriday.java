@@ -27,7 +27,7 @@ public class _008BlackFriday {
             for (int i=0;i<12;i++){     //内循环控制月份
                 cal.set(year,i,13);     //设置日期
                 if (5==(cal.get(Calendar.DAY_OF_WEEK)-1)){      //判断是否是星期五
-                    System.out.println("黑色星期五："+sdf.format(cal.getTime()));     //打印输出黑色星期五
+                    System.out.println("近几年黑色星期五有："+sdf.format(cal.getTime()));     //打印输出黑色星期五
                 }
             }
             year++;
